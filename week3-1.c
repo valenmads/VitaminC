@@ -1,11 +1,11 @@
-/*20225220 ÀÌ¿¹Áø*/
+
 #include <stdio.h>
 int main(void)
 {
 	int num[5];
   int a, i, j;
 
-	printf("¼ýÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À>>");
+	printf("ìˆ«ìžë¥¼ ìž…ë ¥í•˜ì‹œì˜¤>>");
 	
 	for(a=0; a<5; a++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 		{
 			for (j=1; j<= num[i]/1000; j++)
 			{
-				printf("¡á ");
+				printf("â–  ");
 				
 			}
 			printf("(%d) \n", num[i]);
